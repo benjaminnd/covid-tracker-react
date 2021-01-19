@@ -1,0 +1,40 @@
+body {
+  background-color: #f2f2f2;
+  font-family: 'Poppins', serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.subtitle {
+  display: none !important;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% auto;
+        grid-template-columns: 20% auto;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+  .right {
+    padding-left: 2em;
+  }
+}
+/*# sourceMappingURL=App.module.css.map */

@@ -1,0 +1,11 @@
+.picker {
+  width: 50%;
+  margin-bottom: 2em !important;
+}
+
+@media screen and (min-width: 800px) {
+  .picker {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=AreaPicker.module.css.map */

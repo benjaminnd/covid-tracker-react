@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,cAAc;CAChC;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,OAAO,CAAC;IACJ,KAAK,EAAE,GAAG;GACb",
+    "sources": [
+        "AreaPicker.module.scss"
+    ],
+    "names": [],
+    "file": "AreaPicker.module.css"
+}

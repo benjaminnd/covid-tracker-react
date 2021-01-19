@@ -1,0 +1,67 @@
+.container {
+  margin: 0.5em 0 1.5em 0;
+}
+
+.card {
+  margin: 0 3% !important;
+  padding: .5em !important;
+}
+
+.infected {
+  border-left: 10px solid #780b0b;
+  border-left: 10px solid rgba(240, 11, 11, 0.5);
+}
+
+.recovered {
+  border-left: 10px solid #56ff2f;
+  border-left: 10px solid rgba(173, 255, 47, 0.5);
+}
+
+.deaths {
+  border-left: 10px solid black;
+  border-left: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+.typo {
+  font-size: 1em !important;
+}
+
+.subtitle {
+  display: none !important;
+}
+
+@media screen and (min-width: 800px) {
+  .subtitle {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .card {
+    margin: 0 3% !important;
+    padding: 0 !important;
+  }
+  .MuiCardContent-root {
+    font-size: 0.7em !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card {
+    margin: 0 3% !important;
+    padding: 0 !important;
+  }
+  .typo {
+    font-size: 1.5em !important;
+  }
+}
+/*# sourceMappingURL=StatCards.module.css.map */
