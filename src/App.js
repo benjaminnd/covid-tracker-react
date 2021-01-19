@@ -30,14 +30,17 @@ class App extends React.Component {
   }
   render(){
     const {data,country} = this.state
+    if(!data){
+      return 'Loading...'
+    }
     return ( 
       <>
         <Corona ></Corona>
         <div className={styles.container}>
           <StatCards data={data}/>
           <div className={styles.right}>
-          <AreaPicker handleChangeCountry={this.handleChangeCountry}/>
-          <Charts data={data} country={country}/>
+            <AreaPicker handleChangeCountry={this.handleChangeCountry}/>
+            <Charts data={data} country={country}/>
           </div>
         </div>
       </>
